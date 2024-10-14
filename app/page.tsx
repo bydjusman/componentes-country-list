@@ -2,7 +2,7 @@ import CountryList from "./components/countryList";
 
 const HomePage: React.FC = () => {
   const countries = [
-    { name: 'India', population: '1.4B', capital: 'New Delhi' },
+    { name: 'India', population: '1.4B', capital: 'New Delhi'},
     { name: 'United States', population: '331M', capital: 'Washington D.C.' },
     { name: 'Brazil', population: '213M', capital: 'Brasilia' },
     { name: 'Nigeria', population: '206M', capital: 'Abuja' },
@@ -11,7 +11,11 @@ const HomePage: React.FC = () => {
   return (
     <div>
 
-      {/* <h1>Country Information</h1> */}
+          <h1>
+          ★【çօմղէɾվ —͟͞͞★ɴᴀᴍᴇ ✓】★
+          </h1>
+          <br/>
+
       <CountryList countries={countries} />  {/* Passing the array as props */}
 
       <div style={{ marginTop: '30px' }}>

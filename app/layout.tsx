@@ -28,13 +28,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header>
-          <h1 style={{ textAlign: 'center', padding: '10px', backgroundColor: '#1976d2', color: '#fff' }}>
-            ★【çօմղէɾվ —͟͞͞★ɴᴀᴍᴇ'S ✓】★
-          </h1>
-        </header>
-
         {children}
+        
       </body>
     </html>
   );
